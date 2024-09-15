@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         @keyframes anim1 {
+            0%{left: 200px; transform: rotate(20deg);}
+            25%{left: 400px; transform: rotate(40deg);}
+            50%{left: 600px; transform: rotate(60deg);}
+            75%{left: 800px; transform: rotate(80deg);}
+            100%{left: 1000px; transform: rotate(100deg);}
+        
+            
+        }
+        div{
+            background-color: red;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 600px;
+            width: 600px;
+            animation-name: anim1;
+            animation-timing-function: linear;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+    </style>
+</head>
+<body>
+    <div></div>
+    
+</body>
+</html>
